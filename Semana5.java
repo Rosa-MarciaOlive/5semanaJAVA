@@ -51,9 +51,11 @@ while (x !=1){
 Regra
 n n*2 n*3 .... n*n*/
 int n = 1;
+int i = 2;
 System.out.println(n);
-for (n=1; n<=4; n--){
-    System.out.print(n*2);
+for (n; i<=4; n++){
+    i= 2*2;
+    //System.out.println(n*2);
     }
     //for (int j=1;j<=5;j++){
  //   if(i%2==0){
