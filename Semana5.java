@@ -33,5 +33,23 @@ O programa deve parar quando x tiver o valor final
 será:
 40 -> 20 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1*/
 
+int x = 13;
+while (x !=1){
+ if (x%2==0){
+     x = x/2;
+     else {
+         x = 3*x+1;
+     }
+     System.out.print(x +"->");
+ }
+}
+3. Imprima a seguinte tabela, usando for s encadeados:
+1
+2 4
+3 6 9
+4 8 12 16
+Regra
+
+
     }
 }
