@@ -4,7 +4,7 @@
  respostas completamente erradas. Por quê? Mude de
   int para long para ver alguma mudança no caso do
    fatorial de 20? e de 30 e 40?*/
-public class Semana5_exer1{
+public class Semana5{
     public static void main(String[]args){//ags de argumento pode ser outro nome
 //fazer fatorial,testar 20; 30;40
 //20*19*18*17*....5*4*3*2*1
@@ -17,7 +17,7 @@ for (int ft=5; ft>=1;ft--){
 long fatorial = 1;
 for (int ft=20; ft>=1;ft--){
     fatorial = ft*fatorial;
-}----Sugestão é o float*/
+}----Sugestão é o float
 float fatorial = 1;
 for (int ft=30; ft>=1;ft--){
     fatorial = ft*fatorial;
@@ -31,7 +31,7 @@ se x é impar, x = 3 * x + 1  imprime x
 O programa deve parar quando x tiver o valor final
  de 1. Por exemplo, para x = 13 , a saída
 será:
-40 -> 20 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1*/
+40 -> 20 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
 
 int x = 13;
 while (x !=1){
@@ -49,15 +49,16 @@ while (x !=1){
 3 6 9
 4 8 12 16
 Regra
-n n*2 n*3 .... n*n
-for (int i=1; i<=5; i++){
-    for (int j=1;j<=5;j++){
+n n*2 n*3 .... n*n*/
+int n = 1;
+System.out.println(n);
+for (n=1; n<=4; n--){
+    System.out.print(n*2);
+    }
+    //for (int j=1;j<=5;j++){
  //   if(i%2==0){
-        System.out.println(i*j+"-");
-    }
-    }
-}
-
-
+        //System.out.println(i*j+"-");
+    //}
+    
     }
 }
