@@ -52,14 +52,22 @@ Regra
 n n*2 n*3 .... n*n*/
 int n = 1;
 int i = 1;
-System.out.print(n);
+int n1 =1;
+System.out.println(n);
 	for (n=2; n<= 4; n+=2) {
-        i=n*2;
-        System.out.println(n+" ");		
-		}
-        for (n=3; n<=9; n+=3){
-            i=n*3;
-            System.out.println(n+" ");
+        System.out.print(n+" ");       
+       i=n*2;       		
+		}       
+        for (n1=3; n1<=9; n1+=3){
+            System.out.println("");// não tirar quebrou a linha
+            i=n*3;              
+             System.out.print(n1+" "); 
+             //System.out.print("");                
+        }
+       for (n=4; n<=16; n+=4){
+            //System.out.println("");
+            i=n*4;              
+             System.out.print(n+"\n ");                  
         }
         //CERTOOOOOOOO
 	
